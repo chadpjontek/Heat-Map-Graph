@@ -6,4 +6,4 @@ A responsive heat map graph using these technologies:
 - CSS variables
 - PWA
 
-https://scatterplot-graph.netlify.com/
+http://heat-map.netlify.com/
