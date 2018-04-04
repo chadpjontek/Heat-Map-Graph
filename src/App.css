@@ -1,28 +1,45 @@
-.App {
+:root {
+  --primary-color: #2b2d42;
+  --secondary-color: #E24E1B;
+}
+.svg-container {
+  padding: 30px;
+}
+h1,
+h2,
+h3 {
   text-align: center;
+  font-family: Arial;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+h1 {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 25px;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+h2 {
+  color: var(--secondary-color);
+  font-size: 20px;
 }
-
-.App-title {
-  font-size: 1.5em;
+h3 {
+  color: var(--primary-color);
+  font-style: italic;
+  font-size: 15px;
 }
-
-.App-intro {
-  font-size: large;
+svg text {
+  font-family: Arial;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+div.tooltip {
+  color: #edf2f4;
+  position: absolute;
+  text-align: center;
+  width: 60px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: var(--primary-color);
+  border: 0px;
+  border-radius: 3px;
+  pointer-events: none;
+}
+svg g {
+  color: var(--primary-color);
 }
